@@ -32,6 +32,14 @@ CREATE DATABASE name_of_database
 ```
 
 4. Set up environment variables: use .env-example for guidance
+
+```
+cp .env-example .env
+cd /client
+cp .env-example .env
+cd ..
+```
+
 5. Set up database
 
 ```
